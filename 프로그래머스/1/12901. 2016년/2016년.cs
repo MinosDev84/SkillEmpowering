@@ -7,6 +7,7 @@ public class Solution {
         // 31일 : 1, 3, 5, 7, 8, 10, 12
         // 30일 : 4, 6, 9, 11
         // 29일 : 2
+        // (a - 1)월까지 월마다 더하고, a월에 남은 일수만 total에 더해서 계산 
         if(a == 1)
             totalDays = b - 1;
         else
